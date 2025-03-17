@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const apiUrl = Process.env.REACT_URL || 'http://localhost:3001/tasks';
+const apiUrl = process.env.REACT_URL || 'http://localhost:3001/tasks';
 
 export default {
   getTasks: async () => {
